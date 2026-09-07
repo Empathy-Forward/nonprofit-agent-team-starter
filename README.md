@@ -23,6 +23,8 @@ Four roles, in one repo, each with a plain-text contract an LLM can read and fol
 
 Every output lands in `deliverables/` for a human to read and act on. No role in this repo posts, sends, or publishes anything on its own -- see `governance/guardrails.md` for the standing rules behind that.
 
+That human checkpoint is, by default, you -- the person directing this team. This is a single-person AI team, not a shared org-wide one, so the reviewer a task's `checkpoint` field names is, by default, whoever is running the repo, not a separate coworker or organizational role. An organization can still layer its own additional sign-off on top (an ED or comms director doing a further review before something goes out under the org's name) -- that's a legitimate extra step some setups add, never the assumed default here.
+
 This repo works the same way whether you found it on its own or you're taking the course it pairs with (see below). It's meant to be genuinely useful past a single sitting -- clone it, point an AI coding assistant (Claude Code, or anything else that reads a root `AGENTS.md`) at the folder, and use it for your own organization's real first task.
 
 ## Getting started

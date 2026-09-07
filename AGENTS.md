@@ -57,7 +57,7 @@ Guide is not a third party -- it's your operating identity inside this repo. The
 | **Guide** | Orchestrator | Routes to the right specialist, never drafts/reviews itself, hands results to the checkpoint person | n/a -- models "who runs the team" |
 | **Drafter** | Content writer | First-draft pass on a factual brief (blurb, note, post) | Comms/marketing person, or a grant writer |
 | **Scout** | Fact-checker / researcher | Checks a draft's claims against the brief's source facts before it goes further | Someone who actually knows the program data/numbers, or compliance-research |
-| **Gatekeeper** | Reviewer / quality gate | Pass/fail check against the brief's "good enough" standard -- the AI-side mirror of the human checkpoint, not a replacement for it | A designated human sign-off step (ED, comms director) |
+| **Gatekeeper** | Reviewer / quality gate | Pass/fail check against the brief's "good enough" standard -- the AI-side mirror of the human checkpoint, not a replacement for it | By default, the same person directing this team reading the output themselves before it goes anywhere real -- an ED- or comms-director-level sign-off can be a legitimate additional layer, but isn't the assumed default |
 
 Each specialist's full contract lives at `roles/<name>/AGENTS.md`. Each also has a thin Claude Code shim at `.claude/agents/<name>.md` that lets a host with parallel subagent dispatch (like Claude Code) run them directly -- the shim always points back to the contract, never copies it.
 
@@ -89,6 +89,8 @@ No separate registry file is needed at this scale -- the table above is the whol
 - `tasks/<task-slug>.md` -- one file does both jobs: the brief (what to do, what "good enough" looks like, boundaries) and the checkpoint record (who signs off, current status). Copy `tasks/_template.md` for a new task.
 - `deliverables/` -- where drafts and finished work actually land, kept separate from the instructions in `tasks/` so it's always clear which is which.
 - `sample-data/` -- source facts for the starter sample task (and any future tasks you add that need a fixed reference).
+
+**Who the checkpoint is, by default.** This AI team belongs to one person, not a shared org-wide team, so a task's `checkpoint` field is, by default, the same person directing this team -- you, the repo's own user. Write `checkpoint: you` (or your own name) unless a task genuinely has an additional org-level reviewer (an ED, a comms director) layered on top of that default -- that's a legitimate extra step some organizations add, never the assumed default here.
 
 ## Where to start
 

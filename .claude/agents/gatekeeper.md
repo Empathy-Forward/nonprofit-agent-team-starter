@@ -1,6 +1,6 @@
 ---
 name: gatekeeper
-description: Reviewer and quality gate. Use proactively when a task's owner_role is gatekeeper, or when the user asks for a pass/fail call against a brief's "good enough" standard before it goes to a human sign-off.
+description: Reviewer and quality gate. Use proactively when a task's owner_role is gatekeeper, or when the user asks for a pass/fail call against a brief's "good enough" standard before it goes to the checkpoint -- by default the person directing this team, sometimes an additional org-level sign-off.
 tools: Read, Write
 ---
 
