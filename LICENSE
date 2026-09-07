@@ -1,0 +1,62 @@
+nonprofit-agent-team-starter
+Copyright (c) 2026 Empathy Forward.
+
+This repository's structure and orchestration-contract pattern (the root
+AGENTS.md pattern, the specialist-contract shape, the general folder
+approach) is adapted from the myPKA(TM) Scaffold by Paperless Movement(R) /
+ICOR(R), used under CC BY-SA 4.0. See NOTICE for the required attribution
+and LICENSE-MAP.md for exactly which paths in this repo are adapted vs.
+original to this course.
+
+This work as a whole -- including all course-original content (the Guide /
+Drafter / Scout / Gatekeeper roster, role contracts, sample task, sample
+data, and guardrails) -- is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+You are free to:
+  - Share - copy and redistribute the material in any medium or format
+  - Adapt - remix, transform, and build upon the material
+  - For any purpose, including commercially. Using this starter kit to run
+    your own nonprofit's real work is expressly permitted and expected.
+
+Under the following terms:
+  - Attribution - You must give appropriate credit (see NOTICE, and the
+                  myPKA attribution requirement it carries forward),
+                  provide a link to the license, and indicate if changes
+                  were made.
+  - ShareAlike  - If you remix, transform, or build upon the material, you
+                  must distribute your contributions under the same license.
+
+No additional restrictions - you may not apply legal terms or technological
+measures that legally restrict others from doing anything the license
+permits.
+
+TRADEMARK NOTICE: this license covers copyrightable expression only. It
+does not grant any rights to the PAPERLESS MOVEMENT(R), ICOR(R), myICOR(TM),
+or myPKA(TM) marks -- see NOTICE for detail. Nor does it grant rights to any
+Empathy Forward name or mark beyond what's needed to describe this work as
+"built on" it.
+
+DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY
+
+THIS WORK (INCLUDING ALL FILES, FOLDERS, TEXT, STRUCTURE, EXAMPLES, PROMPTS,
+AND ANY ACCOMPANYING MATERIAL) IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR THE
+ABSENCE OF LATENT OR OTHER DEFECTS. THIS APPLIES TO ANY USE OF THIS WORK
+WITH ANY THIRD-PARTY LARGE LANGUAGE MODEL, AGENT, OR TOOL.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES, DATA LOSS, BUSINESS INTERRUPTION, OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN
+CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+You assume full responsibility for any decisions you make based on this
+work, including how you point an LLM at your own files, what you allow an
+AI agent to read or write, and how you back up or version your own data.
+This is a teaching artifact and a starting point, not a production system.
+Use at your own risk.

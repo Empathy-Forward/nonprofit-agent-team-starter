@@ -1,0 +1,23 @@
+# --- Local profile data (never commit) ---
+# Created by Guide on first run (see root AGENTS.md, First-run onboarding).
+# Holds the user's name, org name/mission, and task interest -- personal
+# workspace data, not something that belongs in a shared/public repo.
+.profile.yaml
+
+# --- OS / editor cruft ---
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# --- Secrets (never commit) ---
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# --- Logs & runtime state ---
+*.log
+tmp/

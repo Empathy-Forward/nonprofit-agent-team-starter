@@ -1,0 +1,43 @@
+# NOTICE
+
+## Attribution
+
+Built on the myPKA(TM) Scaffold by Paperless Movement(R) / ICOR(R).
+Source: https://github.com/myICOR/myPKA
+Licensed under CC BY-SA 4.0.
+
+Not an official myPKA product; not affiliated with or endorsed by myICOR
+or Paperless Movement S.L.
+
+Specifically, this repository adapts (does not copy verbatim) the myPKA
+scaffold's root-orchestrator-plus-specialist-contracts pattern and its
+two-layer contract/shim discipline, scaled down for a 4-role team. See
+`LICENSE-MAP.md` for exactly which paths in this repo carry that
+attribution and which are original to this course.
+
+## License
+
+This repository is licensed under CC BY-SA 4.0. See `LICENSE`.
+`LICENSE-MAP.md` distinguishes adapted-from-myPKA paths from
+course-original paths, per subtree.
+
+## Trademarks (not licensed by the above)
+
+The following marks are owned by Paperless Movement(R), S.L. and/or its
+affiliated holding entity, and are not covered by CC BY-SA 4.0 (per
+Section 2(b)(2), no trademark rights are granted by that license):
+
+- PAPERLESS MOVEMENT(R)
+- ICOR(R)
+- myICOR(TM), myPKA(TM)
+
+This repository uses these marks only descriptively, to say what its
+pattern is built on. It does not use them as its own name, logo, or
+branding, and is not itself a myPKA product.
+
+## Copyright
+
+Course-original content in this repository (the Guide / Drafter / Scout /
+Gatekeeper roster, role contracts, sample task, sample data, and
+guardrails) is Copyright (c) 2026 Empathy Forward, licensed under CC BY-SA
+4.0 alongside the adapted material -- see `LICENSE-MAP.md`.
